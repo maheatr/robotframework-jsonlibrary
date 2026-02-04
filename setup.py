@@ -21,7 +21,7 @@ setup(
     url="https://github.com/maheatr/robotframework-jsonlibrary.git",
     packages=["JSONLibrary"],
     package_dir={"robotframework-jsonlibrary": "JSONLibrary"},
-    install_requires=requirements,
+    install_requires=[jsonpath-ng@git+https://github.com/h2non/jsonpath-ng.git],
     include_package_data=True,
     keywords="testing robotframework json jsonschema jsonpath",
     classifiers=[
