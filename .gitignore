@@ -1,0 +1,25 @@
+*.pyc
+dist
+.idea
+.cache
+.coverage
+*egg*
+build
+htmlcov
+result
+.tox
+.pytest_cache
+tests/__out__
+# PyDev/RED
+.settings
+.project
+.pydevproject
+__pycache__
+red.xml
+/libspecs/
+/Results/
+
+#pipenv/virtualenv
+.venv
+Pipfile
+Pipfile.lock
