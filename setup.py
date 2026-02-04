@@ -16,9 +16,9 @@ setup(
     description="robotframework-jsonlibrary is a Robot Framework "
     "test library for manipulating JSON Object. "
     "You can manipulate your JSON object using JSONPath",
-    author="Traitanit Huangsri",
-    author_email="traitanit.hua@gmail.com",
-    url="https://github.com/nottyo/robotframework-jsonlibrary.git",
+    author="Mahendran N",
+    author_email="maheatr@gmail.com",
+    url="https://github.com/maheatr/robotframework-jsonlibrary.git",
     packages=["JSONLibrary"],
     package_dir={"robotframework-jsonlibrary": "JSONLibrary"},
     install_requires=requirements,
